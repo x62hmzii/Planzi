@@ -1,0 +1,84 @@
+# ========================
+# Flutter & Dart
+# ========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+
+# ========================
+# OS / Editor
+# ========================
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.atom/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ========================
+# Android
+# ========================
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/key.properties
+/android/app/*.keystore
+/android/app/*.jks
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ========================
+# iOS
+# ========================
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/.last_build_id
+/ios/.symlinks/
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/build/
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# ========================
+# Xcode
+# ========================
+*.xcuserstate
+*.xcworkspace
+*.xccheckout
+*.moved-aside
+*.xcuserdatad*
+*.xcscmblueprint
+
+# ========================
+# Obfuscation & Symbolication
+# ========================
+app.*.map.json
+app.*.symbols
+
+# ========================
+# Fastlane (if used)
+# ========================
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+# ========================
+# Miscellaneous
+# ========================
+*.class
+*.pyc
